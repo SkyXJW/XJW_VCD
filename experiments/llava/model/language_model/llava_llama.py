@@ -117,7 +117,7 @@ class LlavaLlamaForCausalLM(LlamaForCausalLM, LlavaMetaForCausalLM):
             past_key_values=outputs.past_key_values,
             hidden_states=outputs.hidden_states,
             attentions=outputs.attentions,
-            att_hidden_states=outputs.att_hidden_states,
+            # att_hidden_states=outputs.att_hidden_states,
             # ffn_hidden_states=outputs.ffn_hidden_states,
         )
 
